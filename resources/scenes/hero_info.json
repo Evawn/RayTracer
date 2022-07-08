@@ -1,0 +1,55 @@
+{
+    "lights": [
+        {
+            "node": "Light",
+            "type": "point",
+            "position": [0, 0, 0],
+            "power": [500, 500, 200]
+        },
+        {
+            "node": "Area",
+            "type": "point",
+            "position": [0, 0, 0],
+            "normal": [0, 0, -1],
+            "up": [0, 1, 0],
+            "size": [1.76, 1.76],
+            "power": [1600, 1200, 1000]
+        },
+	{
+            "node": "Area1",
+            "type": "area",
+            "position": [0, 0, 0],
+            "normal": [0, 0, -1],
+            "up": [0, 1, 0],
+            "size": [2.12, 2.12],
+            "power": [1000, 1000, 1000]
+        },
+        {
+            "node": "Ambient",
+            "type": "ambient",
+            "radiance": [0.9, 0.8, 0.5]
+        }
+    ],
+    "materials": [
+        {
+            "node": "cow",
+            "diffuse": [0.2, 0.3, 0.8],
+            "roughness": 0.1
+        },
+{
+            "node": "cow1",
+            "diffuse": [0.8, 0.6, 0.6],
+            "roughness": 0.1
+        },
+{
+            "node": "cow2",
+            "diffuse": [0.8, 0.8, 0.4],
+            "roughness": 0.1
+        },
+{
+            "node": "room",
+            "diffuse": [0.2, 0.2, 0.2],
+            "roughness": 0.8
+        }
+    ]
+}
