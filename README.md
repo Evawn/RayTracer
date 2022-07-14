@@ -1,5 +1,6 @@
 # RayTracer
-3D Scene Renderer by RayTracing using C++, OpenGL, and Intel Embree.
+### 3D Scene Renderer by RayTracing using C++, OpenGL, and Intel Embree.
+Made by Evan Azari and Chuckwuemeka Ubakanma
 
 ## INSTRUCTIONS TO RUN:
 First, unzip ```ext.zip```
